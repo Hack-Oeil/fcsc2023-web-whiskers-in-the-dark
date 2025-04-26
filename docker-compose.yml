@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  whiskers-in-the-dark:
+    read_only: true
+    image: anssi/fcsc2023-web-whiskers-in-the-dark:latest
+    ports:
+      - ${PORT}:8000
